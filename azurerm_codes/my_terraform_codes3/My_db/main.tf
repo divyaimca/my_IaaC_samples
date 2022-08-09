@@ -25,7 +25,7 @@ resource "azurerm_mysql_server" "mysql" {
   resource_group_name = azurerm_resource_group.resource2.name
 
   administrator_login          = "mysqladminum"
-  administrator_login_password = "subhashree@1234"
+  administrator_login_password = "mydb@1234"
 
   sku_name   = "GP_Gen5_2"
   storage_mb = 5120
